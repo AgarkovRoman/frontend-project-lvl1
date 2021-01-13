@@ -20,11 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e5d149c-ed0f-40bb-bb3c-ed46ac1a0db1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/brain-games.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-games.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
+    <list id="f6fcd379-491c-4202-b0a1-506e840e6a38" name="Revert &quot;create shebang&quot;" comment="Revert &quot;create shebang&quot;&#10;&#10;This reverts commit 587b426a" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +51,31 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Makefile.brain-games">
+    <configuration name="brain-games" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="brain-games" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <configuration name="publish" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="publish" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Makefile.brain-games" />
+        <item itemvalue="Makefile.publish" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610527207243</updated>
-      <workItem from="1610527208679" duration="2320000" />
+      <workItem from="1610527208679" duration="3803000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1610529765675</created>
@@ -67,7 +93,49 @@
       <option name="project" value="LOCAL" />
       <updated>1610529765676</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add &quot;type&quot;: &quot;module&quot;">
+      <created>1610539524433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610539524433</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create shebang">
+      <created>1610539544206</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610539544206</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create makefile">
+      <created>1610539577786</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610539577786</updated>
+    </task>
+    <task id="LOCAL-00005" summary="create makefile">
+      <created>1610539587493</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610539587493</updated>
+    </task>
+    <task id="LOCAL-00006" summary="create gitignore">
+      <created>1610539616711</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610539616711</updated>
+    </task>
+    <task id="LOCAL-00007" summary="create makefile">
+      <created>1610539924403</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610539924403</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +154,36 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+    <MESSAGE value="add &quot;type&quot;: &quot;module&quot;" />
+    <MESSAGE value="create shebang" />
+    <MESSAGE value="create gitignore" />
+    <MESSAGE value="create makefile" />
+    <option name="LAST_COMMIT_MESSAGE" value="create makefile" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="212" y="19" key="CommitChangelistDialog2" timestamp="1610539564226">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="212" y="19" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1610539564226" />
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1610539938824">
+      <screen x="60" y="25" width="1380" height="875" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/60.25.1380.875@60.25.1380.875" timestamp="1610539938824" />
+    <state width="1398" height="425" key="GridCell.Tab.0.bottom" timestamp="1610540636326">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="425" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1610540636326" />
+    <state width="1398" height="425" key="GridCell.Tab.0.center" timestamp="1610540636322">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="425" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1610540636322" />
+    <state width="1398" height="425" key="GridCell.Tab.0.left" timestamp="1610540636319">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="425" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1610540636319" />
+    <state width="1398" height="425" key="GridCell.Tab.0.right" timestamp="1610540636324">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="425" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1610540636324" />
   </component>
 </project>
