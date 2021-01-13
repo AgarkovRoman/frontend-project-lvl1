@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e5d149c-ed0f-40bb-bb3c-ed46ac1a0db1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/eslint-check.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <list id="f6fcd379-491c-4202-b0a1-506e840e6a38" name="Revert &quot;create shebang&quot;" comment="Revert &quot;create shebang&quot;&#10;&#10;This reverts commit 587b426a" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610527207243</updated>
-      <workItem from="1610527208679" duration="10145000" />
+      <workItem from="1610527208679" duration="10501000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1610529765675</created>
@@ -232,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610552825266</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add git actions">
+      <created>1610553745499</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1610553745499</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +270,8 @@
     <MESSAGE value="add eslint" />
     <MESSAGE value="refactor with eslint" />
     <MESSAGE value="refactor readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor readme" />
+    <MESSAGE value="add git actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="add git actions" />
   </component>
   <component name="WindowStateProjectService">
     <state x="212" y="19" key="CommitChangelistDialog2" timestamp="1610539564226">
