@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e5d149c-ed0f-40bb-bb3c-ed46ac1a0db1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/eslint-check.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/brain-games.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-games.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cli.js" afterDir="false" />
     </list>
     <list id="f6fcd379-491c-4202-b0a1-506e840e6a38" name="Revert &quot;create shebang&quot;" comment="Revert &quot;create shebang&quot;&#10;&#10;This reverts commit 587b426a" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610527207243</updated>
-      <workItem from="1610527208679" duration="8836000" />
+      <workItem from="1610527208679" duration="10145000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1610529765675</created>
@@ -216,7 +211,28 @@
       <option name="project" value="LOCAL" />
       <updated>1610549040459</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add eslint">
+      <created>1610551667750</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1610551667750</updated>
+    </task>
+    <task id="LOCAL-00017" summary="refactor with eslint">
+      <created>1610551686120</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610551686120</updated>
+    </task>
+    <task id="LOCAL-00018" summary="refactor readme">
+      <created>1610552825266</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1610552825266</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +261,10 @@
     <MESSAGE value="add greeting" />
     <MESSAGE value="add readline-sync" />
     <MESSAGE value="add codeclimate" />
-    <option name="LAST_COMMIT_MESSAGE" value="add codeclimate" />
+    <MESSAGE value="add eslint" />
+    <MESSAGE value="refactor with eslint" />
+    <MESSAGE value="refactor readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="212" y="19" key="CommitChangelistDialog2" timestamp="1610539564226">
@@ -272,9 +291,13 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="210" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1610550262129" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1610541147011">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1610551711456">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1610541147011" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1610551711456" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1610552798331">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1610552798331" />
   </component>
 </project>
