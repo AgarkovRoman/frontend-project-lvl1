@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e5d149c-ed0f-40bb-bb3c-ed46ac1a0db1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/actions.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/gitactions.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8e5d149c-ed0f-40bb-bb3c-ed46ac1a0db1" name="Default Changelist" comment="" />
     <list id="f6fcd379-491c-4202-b0a1-506e840e6a38" name="Revert &quot;create shebang&quot;" comment="Revert &quot;create shebang&quot;&#10;&#10;This reverts commit 587b426a" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610527207243</updated>
-      <workItem from="1610527208679" duration="11345000" />
+      <workItem from="1610527208679" duration="11625000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1610529765675</created>
@@ -246,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610554205383</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="refactor action">
+      <created>1610561838758</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1610561838758</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +284,8 @@
     <MESSAGE value="refactor readme" />
     <MESSAGE value="add git actions" />
     <MESSAGE value="add budget" />
-    <option name="LAST_COMMIT_MESSAGE" value="add budget" />
+    <MESSAGE value="refactor action" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor action" />
   </component>
   <component name="WindowStateProjectService">
     <state x="212" y="19" key="CommitChangelistDialog2" timestamp="1610539564226">
@@ -307,10 +312,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="210" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1610550262129" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1610554208863">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1610561842696">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1610554208863" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1610561842696" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1610552798331">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
