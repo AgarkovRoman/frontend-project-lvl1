@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e5d149c-ed0f-40bb-bb3c-ed46ac1a0db1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cli.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/brain-games.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-games.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <list id="f6fcd379-491c-4202-b0a1-506e840e6a38" name="Revert &quot;create shebang&quot;" comment="Revert &quot;create shebang&quot;&#10;&#10;This reverts commit 587b426a" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610527207243</updated>
-      <workItem from="1610527208679" duration="6897000" />
+      <workItem from="1610527208679" duration="7368000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1610529765675</created>
@@ -165,7 +161,28 @@
       <option name="project" value="LOCAL" />
       <updated>1610548490261</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add greeting">
+      <created>1610548577994</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610548577994</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add greeting">
+      <created>1610548585763</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610548585763</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add readline-sync">
+      <created>1610548627470</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1610548627470</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +208,9 @@
     <MESSAGE value="add publish" />
     <MESSAGE value="add bin" />
     <MESSAGE value="add idea on git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add idea on git ignore" />
+    <MESSAGE value="add greeting" />
+    <MESSAGE value="add readline-sync" />
+    <option name="LAST_COMMIT_MESSAGE" value="add readline-sync" />
   </component>
   <component name="WindowStateProjectService">
     <state x="212" y="19" key="CommitChangelistDialog2" timestamp="1610539564226">
@@ -202,22 +221,22 @@
       <screen x="60" y="25" width="1380" height="875" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/60.25.1380.875@60.25.1380.875" timestamp="1610539938824" />
-    <state width="1398" height="425" key="GridCell.Tab.0.bottom" timestamp="1610544407361">
+    <state width="1398" height="425" key="GridCell.Tab.0.bottom" timestamp="1610548665469">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="425" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1610544407361" />
-    <state width="1398" height="425" key="GridCell.Tab.0.center" timestamp="1610544407359">
+    <state width="1398" height="425" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1610548665469" />
+    <state width="1398" height="425" key="GridCell.Tab.0.center" timestamp="1610548665468">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="425" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1610544407359" />
-    <state width="1398" height="425" key="GridCell.Tab.0.left" timestamp="1610544407357">
+    <state width="1398" height="425" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1610548665468" />
+    <state width="1398" height="425" key="GridCell.Tab.0.left" timestamp="1610548665467">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="425" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1610544407357" />
-    <state width="1398" height="425" key="GridCell.Tab.0.right" timestamp="1610544407360">
+    <state width="1398" height="425" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1610548665467" />
+    <state width="1398" height="425" key="GridCell.Tab.0.right" timestamp="1610548665468">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="425" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1610544407360" />
+    <state width="1398" height="425" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1610548665468" />
     <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1610541147011">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
