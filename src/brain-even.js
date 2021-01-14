@@ -1,4 +1,5 @@
 import readlineSync from 'readline-sync';
+import greeting from './cli.js';
 
 export default function brainEven() {
   const numbers = [
@@ -9,9 +10,8 @@ export default function brainEven() {
   let countOfRightAnswers = 0;
 
   // Greeting & userName saving
-  console.log('Welcome to the Brain Games!');
-  const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hello ${userName}!`);
+  const userName = greeting();
+
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
   // Show questions & counting right answers
