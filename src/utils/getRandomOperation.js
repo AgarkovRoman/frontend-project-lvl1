@@ -1,17 +1,8 @@
 export default function getRandomOperation() {
-  const number = Math.floor(Math.random() * 100);
+  const operations = '-+*';
+  const min = 1;
+  const max = 3;
+  const number = Math.floor(Math.random() * (max - min + 1)) + min;
 
-  if (number > 0 && number <= 33) {
-    return '-';
-  }
-
-  if (number > 33 && number <= 66) {
-    return '+';
-  }
-
-  if (number > 66) {
-    return '*';
-  }
-
-  return null;
+  return operations.charAt(number - 1);
 }
