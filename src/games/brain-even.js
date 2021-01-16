@@ -1,34 +1,21 @@
-import readlineSync from 'readline-sync';
-import greeting from '../cli.js';
 import getRandomNumber from '../utils/getRandomNumber.js';
+import engine from '../index.js';
 
 export default function brainEven() {
-  let countOfRightAnswers = 0;
-
-  // Greeting & userName saving
-  const userName = greeting();
-
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
+  const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
   const getRightAnswerEven = (number) => (number % 2 === 0 ? 'yes' : 'no');
 
-  // Show questions & counting right answers
+  const gameData = [];
+
   for (let i = 0; i < 3; i += 1) {
     const element = getRandomNumber();
     const rightAnswer = getRightAnswerEven(element);
+    const userAnswer = `Question: ${element} \nYour answer: `;
+    const obj = { id: i, userAnswer, rightAnswer };
 
-    const answer = readlineSync.question(`Question: ${element} \nYour answer: `);
-    if (answer === rightAnswer) {
-      countOfRightAnswers += 1;
-      console.log('Correct!');
-    } else {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.\nLet's try again, ${userName}!`);
-      break;
-    }
+    gameData.push(obj);
   }
 
-  // Show 'Congratulations' if all answers are right
-  if (countOfRightAnswers === 3) {
-    console.log(`Congratulations, ${userName}!`);
-  }
+  engine(gameRules, gameData);
 }
