@@ -1,12 +1,9 @@
-import readlineSync from 'readline-sync';
-import greeting from '../cli.js';
 import getRandomNumber from '../utils/getRandomNumber.js';
 import getRandomOperation from '../utils/getRandomOperation.js';
+import engine from '../index.js';
 
 export default function brainCalc() {
-  const userName = greeting();
-  console.log('What is the result of the expression?');
-  let countOfRightAnswers = 0;
+  const gameRules = 'What is the result of the expression?';
 
   const getRightAnswerCalc = (firstNum, secondNum, operation) => {
     switch (operation) {
@@ -21,24 +18,19 @@ export default function brainCalc() {
     }
   };
 
+  const gameData = [];
+
   for (let i = 0; i < 3; i += 1) {
     const firstNumber = getRandomNumber();
     const secondNumber = getRandomNumber();
     const operation = getRandomOperation();
     const rightAnswer = getRightAnswerCalc(firstNumber, secondNumber, operation).toString();
+    const userAnswer = `Question: ${firstNumber} ${operation} ${secondNumber} \nYour answer: `;
 
-    const answer = readlineSync.question(`Question: ${firstNumber} ${operation} ${secondNumber} \nYour answer: `);
+    const obj = { id: i, userAnswer, rightAnswer };
 
-    if (answer === rightAnswer) {
-      countOfRightAnswers += 1;
-      console.log('Correct!');
-    } else {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.\nLet's try again, ${userName}!`);
-      break;
-    }
+    gameData.push(obj);
   }
 
-  if (countOfRightAnswers === 3) {
-    console.log(`Congratulations, ${userName}!`);
-  }
+  engine(gameRules, gameData);
 }
