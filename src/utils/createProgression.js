@@ -15,7 +15,6 @@ export default function createProgression() {
   }
 
   const missingElement = result[indexOfMissingElement].toString();
-  const resultString = result.join(', ').replace(missingElement, '..');
-
+  const resultString = result.join(' ').replace(missingElement, '..');
   return { resultString, missingElement };
 }
