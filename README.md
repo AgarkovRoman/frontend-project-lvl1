@@ -11,7 +11,14 @@
 
 [![asciicast](https://asciinema.org/a/f26l5uYwoFncNHVOtjaU9EXZE.svg)](https://asciinema.org/a/f26l5uYwoFncNHVOtjaU9EXZE)
 
-
 #### brain-calc
 
 [![asciicast](https://asciinema.org/a/EGxyPe99DO5EXmHuUzYJ2wh53.svg)](https://asciinema.org/a/EGxyPe99DO5EXmHuUzYJ2wh53)
+
+#### brain-grc
+
+[![asciicast](https://asciinema.org/a/Rs2Vc3Z0KLC8Fhf9zFdWmvryN.svg)](https://asciinema.org/a/Rs2Vc3Z0KLC8Fhf9zFdWmvryN)
+
+#### brain-progression
+
+[![asciicast](https://asciinema.org/a/FuI7EQat3gV81Gog4UOUk11uO.svg)](https://asciinema.org/a/FuI7EQat3gV81Gog4UOUk11uO)
